@@ -1,4 +1,4 @@
-<main id="main">
+<main id="main" class="dark-light-bg dark-light-grey">
 
 	<div class="container">
 
@@ -6,12 +6,16 @@
             {{ partial "subheader.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showServices }}
-            {{ partial "services.html" . }}
+        {{ if .Site.Params.showNews }}
+            {{ partial "news.html" . }}
         {{ end }}
 
         {{ if .Site.Params.showRecentWorks }}
             {{ partial "recentworks.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showServices }}
+            {{ partial "services.html" . }}
         {{ end }}
 
         {{ if .Site.Params.showDownload }}

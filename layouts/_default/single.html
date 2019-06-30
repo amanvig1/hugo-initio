@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<main id="main">
+<main id="main" class="dark-light-bg dark-light-grey">
 
 	<div class="container">
 
@@ -9,9 +9,9 @@
 
  				<article class="post">
 					<header class="entry-header">
- 						<div class="entry-meta">
+ 						<!--div class="entry-meta">
  							<span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
- 						</div>
+ 						</div-->
  						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
 					</header>
 					<div class="entry-content">

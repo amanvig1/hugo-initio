@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-sticky">
+<nav class="navbar navbar-default navbar-sticky dark-light-bg">
     <div class="container-fluid">
 
         <div class="navbar-header">
@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a class="dark-light-grey" href="{{ .URL }}">{{ .Name }}</a>
                 </li>
                 {{end}}
                 <!--

@@ -1,0 +1,20 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title"><span>News</span></h2>
+
+    <div class="">
+        <ul>
+        {{ range $index, $area := .Site.Data.news }}
+            <li class="">
+                <p>{{ .Date }} -- <b> {{ .Title }}</b> --
+                {{ .Summary }}
+                {{ if eq .has_link "true" }}
+                    <a href="{{ .link_url }}" class="">{{ .link_text }}</a>
+                {{ end }}
+                </p>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+
+</div> <!-- / section -->

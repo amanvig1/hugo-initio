@@ -2,8 +2,8 @@ html {
   font-size: 100%;
 }
 body {
-  font-size: 18px;
-  font-size: 1.0375rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
   padding: 0;
@@ -27,14 +27,12 @@ body {
   border-radius: 0;
   background-clip: padding-box;
   width: 100%;
-  margin-bottom: 1px;
-  margin-top: 1px;
 }
 .navbar.stick {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .85);
+  background-color: #202124;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -67,11 +65,11 @@ body {
   padding: 5px 30px;
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #202124;
   border-color: #cccccc;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #333333;
+  color: #cccccc;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -81,7 +79,7 @@ body {
   color: #000000;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
-  color: #333333;
+  color: #cccccc;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
   background-color: #eeeeee;
@@ -92,10 +90,10 @@ body {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
+  background-color: #202124;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #cccccc;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -104,7 +102,7 @@ body {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #ffffff;
+  background-color: #202124;
   color: #000000;
 }
 /****************************************************************************************
@@ -167,7 +165,7 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #333333;
+  color: #cccccc;
 }
 h1 {
   font-size: 40px;
@@ -190,7 +188,7 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #15c;
+  color: #1155cc;
 }
 a:hover {
   color: #e93675;
@@ -240,7 +238,7 @@ a:hover {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
-  text-shadow:-1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
+  color: #333333;
 }
 #head .title a {
   text-decoration: none;
@@ -261,7 +259,7 @@ a:hover {
   color: #333333;
 }
 .home #head {
-  padding: 30px 0;
+  padding: 5px 0;
 }
 .home #head .title {
   font-size: 49px;
@@ -272,8 +270,8 @@ a:hover {
   font-size: 1rem;
   margin: 15px 0 0;
 }
-.logo {
-    color: #333;
+.home {
+    background-color: #202124;
 }
 /*********************************************************************
 
@@ -291,7 +289,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #ccc;
   -webkit-border-radius: 0px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0px;
@@ -325,7 +323,7 @@ img {
 .btn-action {
   font-weight: bold;
   background: transparent!important;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   text-shadow: none;
 }
 .btn-action:hover,
@@ -363,7 +361,8 @@ img {
 }
 /* Section - Featured */
 .featured {
-  font-size: 16px;
+  font-size: 13px;
+  font-size: 0.8125rem;
 }
 .featured h3 {
   font-weight: bold;
@@ -402,7 +401,7 @@ img {
   padding: 0;
   text-align: center;
   text-decoration: none;
-  color: #333;
+  color: #ccc;
 }
 .thumbnail .img {
   display: block;
@@ -474,7 +473,7 @@ img {
   left: 0;
 }
 .thumbnail:hover {
-  color: #333;
+  color: #ccc;
   text-decoration: none;
 }
 .thumbnail:hover img {
@@ -496,7 +495,7 @@ img {
   background: none;
 }
 .pagination > li.active > a {
-  color: #333333;
+  color: #cccccc;
   background: none;
 }
 .pagination > li.active > a:hover {
@@ -525,7 +524,7 @@ img {
 }
 .section-title a,
 .entry-title a {
-  color: #333333;
+  color: #cccccc;
 }
 .section-title span,
 .entry-title span {
@@ -587,7 +586,7 @@ img {
 }
 .meta-nav:hover,
 .more-link:hover {
-  color: #333333;
+  color: #cccccc;
   text-decoration: underline;
 }
 .more-link {
@@ -619,7 +618,7 @@ img {
 }
 #nav-below .meta-nav:hover {
   text-decoration: none;
-  color: #333;
+  color: #ccc;
 }
 #nav-below .nav-next {
   position: fixed;
@@ -642,7 +641,7 @@ footer.entry-meta {
   font-size: 0.75rem;
 }
 footer.entry-meta a {
-  color: #333333;
+  color: #cccccc;
 }
 footer.entry-meta .meta-in {
   border-top: 1px solid #ccc;
@@ -712,7 +711,7 @@ footer.entry-meta .meta-in {
   margin: 0 0 0 90px;
 }
 #comments .comment-meta a {
-  color: #333333;
+  color: #cccccc;
 }
 #comments .comment-meta a:hover {
   color: #bd1550;
@@ -818,7 +817,7 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 .st-custom-button[data-network] {
-   background-color: #fff;
+   background-color: #202124;
    display: inline-block;
    padding: 0px 5px 20px 5px;
    cursor: pointer;
@@ -844,62 +843,3 @@ footer.entry-meta .meta-in {
 .error p { 
     text-align: center;
 }
-
-/*********************************************************************
-
-
-                                Lightswitch
-
-
-**********************************************************************/
-.toggle {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 90px;
-  height: 32px;
-  display: inline-block;
-  position: relative;
-  border-radius: 50px;
-  overflow: hidden;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  background-color: #707070;
-  transition: background-color ease 0.3s;
-}
-
-.toggle:before {
-  content: "light dark";
-  display: block;
-  position: absolute;
-  z-index: 2;
-  width: 28px;
-  height: 28px;
-  background: #ff6685;
-  left: 2px;
-  top: 2px;
-  border-radius: 50%;
-  font: 15px/28px Helvetica;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-indent: -50px;
-  word-spacing: 34px;
-  color: #fff;
-  text-shadow: -1px -1px rgba(0,0,0,0.15);
-  white-space: nowrap;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
-}
-
-.toggle:checked {
-  background-color: #ccc;
-}
-
-.toggle:checked:before {
-  left: 58px;
-  color: #222;
-}
-
-
-
